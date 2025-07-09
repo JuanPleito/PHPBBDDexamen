@@ -31,14 +31,32 @@ require_once('../plantillas/cabecera.php');
                 <option value="furgon">Furgón </option>
             </select>
         </div>
-        
         <div  class="control mb-3">
-            <label for="curso"class="col-sm-2 col-form-label">Curso:</label>
-            <input type="number" name="curso" id="curso" min="1" max="4" step="1" class="form-control">
+            <label for="cilindrada" class="col-sm-2 col-form-label">Color: </label>
+            <input type="text" name="color" id="color" class="form-control">
         </div>
 
         <div  class="control mb-3">
-            <input type="submit" value="Añadir Asignatura"   class="btn btn-primary">
+            <label for="fecha_matriculacion" class="col-sm-2 col-form-label">Fecha de Matriculación: </label>
+            <input type="date" name="fecha_matriculacion" id="fecha_matriculacion" class="form-control">
+        </div>
+
+        <div  class="control mb-3">
+            <label for="cilindrada" class="col-sm-2 col-form-label">Cilindrada: </label>
+            <input type="text" name="cilindrada" id="cilindrada"  class="form-control">
+        </div>
+
+        <div  class="control mb-3">
+            <label for="itvpasada" class="col-sm-2-col-form-label">ITV pasada :  </label>
+            <input type="checkbox" name="itvsi" id="itv" checked>
+
+        </div>
+
+
+
+
+        <div  class="control mb-3">
+            <input type="submit" value="Registrar cochito"   class="btn btn-primary">
         </div>
 
     </form>
