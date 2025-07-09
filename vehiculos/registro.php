@@ -47,8 +47,8 @@ require_once('../plantillas/cabecera.php');
         </div>
 
         <div  class="control mb-3">
-            <label for="itvpasada" class="col-sm-2-col-form-label">ITV pasada :  </label>
-            <input type="checkbox" name="itvsi" id="itv" checked>
+            <label for="itv" class="col-sm-2-col-form-label">ITV pasada :  </label>
+            <input type="checkbox" name="itv" id="itv" checked>
 
         </div>
 
