@@ -15,6 +15,8 @@ require_once('../plantillas/cabecera.php');
     $cilindrada=$_POST['cilindrada'];
     // $itv=$_POST['itv'] al ser checkbox llega ON, y la base de datos es un tinyINT, dara error siempre, hay que transformar string ON en un valor, se implementa mediante un operador ternario
     $itv = isset($_POST['itv']) && $_POST['itv'] == 'on' ? 1 : 0;
+
+    
     // problema es que en la tabla ahora se muestra 1 o 0, para ello, otra variable, itv a texto, de nuevo con operador ternario
     $itvTexto = ($itv == 1) ? 'SI' : 'NO';
 ?>

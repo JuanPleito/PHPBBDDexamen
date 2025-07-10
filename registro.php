@@ -31,6 +31,11 @@ require_once('plantillas/cabecera.php');
             <input type="email" name="email" id="email" class="form-control">
         </div>
         <div class="control mb-3">
+            <label for="dni" class="col-sm-2 col-form-label">DNI:</label>
+            <input type="text" name="dni" id="dni" required class="form-control">
+        </div>
+
+        <div class="control mb-3">
             <input type="submit" value="Añadir Alumno"  class="btn btn-primary">
         </div>
 
